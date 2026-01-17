@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    ports:
+      - "5001:5000"
+    environment:
+      - FLASK_APP=main.py
+      - FLASK_ENV=production
+      - FLASK_DEBUG=0
+      - CLAUDE_API_KEY=${CLAUDE_API_KEY}
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - GROQ_API_KEY=${GROQ_API_KEY}
+      - GCP_BUCKET_NAME=resume_storage_service
+    env_file:
+      - .env
+    volumes:
+      - ./keys:/app/keys:ro  # Mount Google Cloud credentials
+      - ./logs:/app/logs     # Mount logs directory
+      - ./res:/app/res       # Mount resources directory
+    restart: unless-stopped 

@@ -1,0 +1,18 @@
+{
+    "dev": {
+        "app_function": "main.app",
+        "aws_region": "us-east-1",
+        "exclude": [
+            "boto3",
+            "dateutil",
+            "botocore",
+            "s3transfer",
+            "concurrent"
+        ],
+        "profile_name": "default",
+        "project_name": "resume-generato",
+        "runtime": "python3.10",
+        "s3_bucket": "zappa-io5rcr0g6",
+        "keep_warm": false
+    }
+}

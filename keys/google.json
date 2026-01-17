@@ -1,0 +1,13 @@
+{
+    "type": "service_account",
+    "project_id": "earlybird-v0",
+    "private_key_id": "1ed75f82a19ed32",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBAhkiG9w0BAQKkwggSlAgEAAoIBAQDizpx82gLwBVYR\n/SYB6CReigEBr8qOsp1/tF33OvCUtgMwskABHh2pXVK48cliJ1Ogn96pg/fJUx9l\nTXhPeICBAKAEhBLF9xx5nnXkk//NYwOgOTDnSVlzS4HzQOO4vWd8Iqip0ZDDkCNe\nyuATZZ7QfIXLN+CMYHBftx6GGsPF6dsIy13StBycS8mR6pg+hQ/HwyS9sp3+bZNC\n7OFOSAyY0nVA+CoJGVQuYWia+466q7IRDWUICvKdeIchvOIfWqYHr3cN/wAV3CKr\nJdtKBUsS37RHcjS+1xe9D6MCvPzv2GAE+AOrVEwjYp+i2oh1GwpXL2EZiB57zb9D\n3uLdc80TAgMBAAECggEAPODGYkDGXxSfmK6BYCumb3XNdV1xGkJZQijwu+anItOE\nIbMGuQYTYh15kcjcjCsQKGIhCxEwFmroV3Gm5HXs0DORwASPYXHFw+NDs7oCBGga\nVgxj0wD+MJNI6zk0pqa4Ozq2WPa2S7fJtqzv3mT9buqtovF5pVRRdW+aktZmTB3K\n1rp9nFxZu73XVIWO9lcCg8p2128DLQisRxbrE4JvpsaK4LYZu8T4SntnaWmH+lBK\n8b9M2hRw9/DthQ4ZOWGU/iTxcj6FE4toyhuHE1FPLWL5loBqt8xDJwrvcl4T2UM6\nv7/CXnI8zkER15QtnIvp4S/dFt+KOkDM1Vqam+MAEQKBgQD2+xaaao2/MRwY7XJz\nCL19YsAjncvEIYZl8QYHzvGUjt1keQwWl97VWT3cjBqL8ZeyQBD4h+hJUk260xOF\nOa/raxdZdUwKHPWCxhNTklyDa+VoCdR9AZhNJn336xUVBKWuCPdTAAVsWaAlA46s\nN1EI2DmuV8PScuVaAMhVTY50ywKBgQDrFu2Heux1I3nOjtSuIA1xQrJBduaunGvd\npXJz/9FdowlQTPcOkagbYtSONvGjoFczZ+Gm/2Vt5c7Jt5Q2pSggNZ5sSAD1riZv\nJk7ze97SeDAdY1KT81az1mlKnenMXXsUyMidt+M1SzWieSNqQKX7MWz4Q+7rxTjM\njmhThJvH2QKBgQDojgJ5ga1YgphvTF2AvZEXGD3NC47LbbnMEUfZYF2OwXrrWSMt\nvvC+ORqLqYxxixmIaNTR/76UE6BHMurlfi0MYbkJre3cc+okqfeWsHDV+ml3LhJb\nZn4O3xirsToXoVmT5rNi/tkcbcPiNlhIBooR5u9hHxiu9yrINYZs8+sYQwKBgQCQ\nB8QPNSiZu9psyuVSqSCTO6GqqgY7BGqxqSOuHhVPoQubvwu+SU8NOEexucfhz+Kd\nBBAkGGU0J4/B1k9gC1/CHBerj5HG86NohbfpRQMHP8t6tddp/bQpCjwIEyeipcM6\nwKjouDjj9eguWrlv55vJgkaY9EX0/SgHa1hPkvc+QQKBgQC4Qq91ZJaaNhIIgJQ1\nGpcZOGLT9RETNiowSb6ZD8/iH5vsgkyG7+yt7xf3w46UzqZ/HhIGm6p+qazYRYU6\nzpYNXPTKzC7lfrQaTFK+XVI2Ek+kyRIVRY3h+2HHDzJTz/P5IH0oST+mZnfWnXpA\net6Yz2K2w+EVBEPdhM9il6xlcQ==\n-----END PRIVATE KEY-----\n",
+    "client_email": "ai-workloads-service-key@earlybird-v0.iam.gserviceaccount.com",
+    "client_id": "111220172806333273931",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/ai-workloads-service-key%40earlybird-v0.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }

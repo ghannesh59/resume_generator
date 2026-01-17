@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "resume-generator"
+version = "0.1.0"
+description = ""
+authors = ["sriram-V20 <sriramvemparala27@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+flask = "^3.0.0"
+flasgger = "^0.9.7"
+python-dotenv = "^1.0.0"
+anthropic = "*"
+reportlab = "*"
+configparser = "*"
+openai = "^1.55.0"
+google-cloud-storage = "^2.18.2"
+gunicorn = "^21.2.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.0"
+pytest-cov = "^4.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+addopts = "-v --cov=. --cov-report=term-missing -s"

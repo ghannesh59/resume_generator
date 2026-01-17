@@ -1,0 +1,15 @@
+resumes/*
+*.pdf
+*.docx
+*.doc
+*.txt
+*.csv
+
+.pytest_cache
+__pycache__
+.DS_Store
+.vscode
+.coverage
+
+logs/*
+venv/*
